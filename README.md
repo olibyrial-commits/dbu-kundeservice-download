@@ -2,7 +2,7 @@
 
 [Download den nyeste version](https://github.com/olibyrial-commits/dbu-kundeservice-download/releases/latest)
 
-På Windows skal du hente filen **DBU.Kundeservice.Setup.<version>.exe**. På Mac skal du hente **.dmg**-filen. Installationsfilerne ligger under **Assets** på udgivelsen.
+På Windows skal du hente filen **DBU-Kundeservice-Setup-<version>.exe**. På Mac skal du hente **.dmg**-filen. Installationsfilerne ligger under **Assets** på udgivelsen.
 
 Når du har installeret:
 
