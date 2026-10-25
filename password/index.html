@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src https://yrqnwinlimwibsfgacur.supabase.co; base-uri 'none'; form-action 'none'; frame-src 'none'">
+  <title>Vælg adgangskode · DBU Kundeservice</title>
+  <link rel="stylesheet" href="./password.css">
+  <script type="module" src="./password.js"></script>
+</head>
+<body>
+  <main>
+    <div class="brand">DBU <span>Kundeservice</span></div>
+    <h1>Vælg din adgangskode</h1>
+    <p id="status" role="status">Kontrollerer linket…</p>
+    <form id="password-form" hidden>
+      <p id="account"></p>
+      <label>Ny adgangskode<input id="password" type="password" autocomplete="new-password" minlength="8" maxlength="200" required></label>
+      <label>Gentag adgangskoden<input id="repeat" type="password" autocomplete="new-password" minlength="8" maxlength="200" required></label>
+      <p id="error" role="alert"></p>
+      <button id="save" type="submit">Gem adgangskode</button>
+    </form>
+    <p class="hint">Når adgangskoden er gemt, åbner du DBU Kundeservice og logger ind med din e-mail og den nye adgangskode.</p>
+    <p class="hint">Er linket udløbet? Brug “Glemt adgangskode” i appen for at få en ny mail. Du kan også få en engangskode fra din administrator.</p>
+    <a href="https://github.com/olibyrial-commits/dbu-kundeservice-download/releases/latest">Hent DBU Kundeservice</a>
+  </main>
+</body>
+</html>
